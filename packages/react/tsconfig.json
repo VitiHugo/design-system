@@ -1,0 +1,4 @@
+{
+  "extends": "@raio-laser/ts-config/react.json",
+  "include": ["src"]
+}

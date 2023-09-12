@@ -1,0 +1,16 @@
+{
+  "name": "@raio-laser/tokens",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/dindex..d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "devDependencies": {
+    "@raio-laser/ts-config": "*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
