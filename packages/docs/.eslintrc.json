@@ -1,0 +1,3 @@
+{
+  "extends": "@raio-laser/eslint-config"
+}

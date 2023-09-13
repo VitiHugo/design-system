@@ -2,10 +2,11 @@
   "name": "@raio-laser/react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.mjs",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@raio-laser/tokens": "*",
     "@raio-laser/ts-config": "*",
+    "@raio-laser/eslint-config": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
